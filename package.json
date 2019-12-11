@@ -1,0 +1,26 @@
+{
+  "name": "wired-scraper",
+  "version": "1.0.0",
+  "description": "Wired Article Scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noho-glitch/Wired-Scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noho-glitch/Wired-Scraper/issues"
+  },
+  "homepage": "https://github.com/noho-glitch/Wired-Scraper#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.8.0"
+  }
+}
