@@ -19,6 +19,13 @@ var ArticleSchema = new Schema({
     type: String,
     required: true,
     unique: true
+  },
+  img: {
+  type: String
+  },
+  comment: {
+    type: Schema.Types.ObjectId,
+    ref: "Comment"
   }
 })
 ArticleSchema.plugin(uniqueValidator);

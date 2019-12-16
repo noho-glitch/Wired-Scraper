@@ -1,0 +1,12 @@
+.navbar {
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-bottom: 30px;
+    min-height: 300px;
+}
+
+a {
+   color: blue;
+}

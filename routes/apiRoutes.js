@@ -37,6 +37,11 @@ module.exports = function(app) {
         results.link = $(element)
           .find("a")
           .attr("href");
+        results.img = $(element)
+            .parent()
+            .parent()
+            .find(".image-group-component")
+            .attr("src")
         // Save these results in an object that we'll push into the results array we defined earlier
         db.Article.create(results).then(function(dbArticle) {
           console.log(results);
